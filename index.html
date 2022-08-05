@@ -7,35 +7,42 @@
     <meta name="description" content="O que é a Kenzieflix? A Kenzie Academy Brasil é uma escola norte-americana que veio para o Brasil com o objetivo de ofertar ensino de qualidade para quem deseja trabalhar na área da tecnologia e programação">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://kenzie.com.br/favicon.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Kenzieflix Brasil</title>
 
 </head>
 <body>
-    <header>
-        <figure class="logo">
-            <img src="./img/logo.png" alt="Kenzieflix" title="Kenzieflix">
-        </figure>        
-    </header>
-
-    <main>
-        <h1>Quem está assistindo?</h1>
-        <ul class="user-list">
-            <li class="user-box">
-                <figure class="user-figure">
-                    <img src="./img/pink.png" alt="Aline" title="Aline">
-                </figure>
-                <p>Aline</p>
-            </li>
-            <li class="user-box">
-                <figure>
-                    <img src="./img/panda.png" alt="Pedrinho" title="Pedrinho">
-                </figure>
-                <p>Pedrinho</p>
-            </li>
-            <li class="user-box">
-                <figure>
+    <div>
+        <img id="fundo-anim"src="./img/background.png" alt="" id="fundo-preto">
+        <div class="caixa-logo-anim">
+            <img id="logo-anim" src="./img/logo.png" alt="">
+        </div>
+        
+        <header>
+            <figure class="logo">
+                <img src="./img/logo.png" alt="Kenzieflix" title="Kenzieflix">
+            </figure>        
+        </header>
+        
+        <main>
+            <h1>Quem está assistindo?</h1>
+            <ul class="user-list">
+                <li class="user-box">
+                    <figure class="user-figure">
+                        <img src="./img/pink.png" alt="Aline" title="Aline">
+                    </figure>
+                    <p>Aline</p>
+                </li>
+                <li class="user-box">
+                    <figure>
+                        <img src="./img/panda.png" alt="Pedrinho" title="Pedrinho">
+                    </figure>
+                    <p>Pedrinho</p>
+                </li>
+                <li class="user-box">
+                    <figure>
                     <img src="./img/robot.png" alt="Júlia" title="Júlia">
                 </figure>
                 <p>Júlia</p>
@@ -49,10 +56,11 @@
             
         </ul>
     </main>
-
+    
     <footer class="rodape">
         <button type="button">Gerenciar Perfis</button>
     </footer>
     
+</div>
 </body>
 </html>
