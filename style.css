@@ -113,9 +113,9 @@ main p {
 
 /* animações extras */
 #fundo-anim {
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: fadding;
-    animation-duration: 1s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
 
     position: fixed;
@@ -126,13 +126,13 @@ main p {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 100%;
+    
 }
 
 .caixa-logo-anim {
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-name: fadding;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 
     position: fixed;
@@ -142,13 +142,15 @@ main p {
     z-index: 3;
     justify-content: center;
     align-items: center;
+    opacity: 100%; 
 }
 
 #logo-anim {
     transform: scale(2);
     display: inline-block;
-    position: fixed;    
+    position: fixed;   
     z-index: 3;
+
 }
 
 @keyframes fadding {
