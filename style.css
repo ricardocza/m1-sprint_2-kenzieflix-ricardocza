@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #121114;
+    font-family: 'Inconsolata', sans-serif;
+}
+.logo {
+    display: flex;    
+    justify-content: center;
+    padding-top: 30px;        
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+main h1 {
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700;
+}
+
+main .user-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+main .user-box {
+    width: 160px;       
+}
+
+#add-perfil {
+    opacity: 50%;
+}
+
+
+main .user-box figure {
+    display: flex;
+    justify-content: center;
+    height: 155px;
+    align-items: center;
+    border: 2px solid #1E1D20;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1E1D20;
+}
+
+main p {
+    color: #8d8896;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    border: hidden;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.rodape button {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: #121114;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.rodape button:hover {
+    background-color: #fff;
+    color: #1E1D20;
+    transition: 0.2s ease-in-out;
+}
+
+.user-box:hover figure{
+    border: 2px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.user-box:hover p{
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.user-box:hover img{
+    opacity: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.user-box:hover #add-perfil{
+    opacity: 100%;
+    transition: 0.2s ease-in-out;
+}
